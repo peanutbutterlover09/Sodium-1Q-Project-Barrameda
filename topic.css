@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(249, 216, 226);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.header {
+    text-align: center;
+    background: pink;
+    padding: 14px;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: black;
+    padding-top: 10px;
+}
+
+.header h1 {
+    font-size: 55px;
+    color: white;
+    margin: 8px;
+}
+
+.description {
+    color: black;
+    padding-bottom: 34px;
+}
+
+.navbar {
+    list-style: none;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.navactive a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.navactive a.active,
+.navactive a:hover {
+    color: rgb(102, 0, 51);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    width: 1000px;
+    margin: 30px auto;
+}
+
+.section {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section img {
+    width: 320px;
+    height: 390px;
+}
+
+.content {
+    padding: 16px;
+}
+
+.content h2 {
+    margin: 8px;
+}
+
+.content a {
+    margin-top: 100px;
+    color: rgb(212, 106, 145);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
