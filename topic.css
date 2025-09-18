@@ -77,14 +77,3 @@ a{
 .content h2 {
     margin: 8px;
 }
-
-.content a {
-    margin-top: 100px;
-    color: rgb(212, 106, 145);
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.content a:hover {
-    text-decoration: underline;
-}
